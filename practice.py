@@ -4,6 +4,6 @@ c = int(input())
 
 d = a+b+c
 
-s =str("test")
+s = str(input())
 
 print(d, s)
