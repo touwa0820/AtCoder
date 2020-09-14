@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*-
+# 整数の入力
 a = int(input())
-b = int(input())
-c = int(input())
-
-d = a+b+c
-
-s = str(input())
-
-print(d, s)
+# スペース区切りの整数の入力
+b, c = map(int, input().split())
+# 文字列の入力
+s = input()
+# 出力
+print("{} {}".format(a+b+c, s))
